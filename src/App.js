@@ -1,6 +1,7 @@
 import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
+import Welcome from './pages/Welcome';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Python_Projects from './pages/Python_Project';
@@ -12,11 +13,15 @@ import {Route, Switch, Link} from 'react-router-dom';
 function App() {
   return (
     <>
-    <Navbar/>
     <Switch>
-      <Route exact path="/" component={Home}/>
-      <Route exact path="/projects/" component={Projects}/>
-      <Route exact path="/projects/:python" component = {Python_Projects}/>
+      <Route exact path="/" render={() => (
+        <div>
+          <Welcome/>
+        </div>
+      )}/>
+      <Route exact path="/home" render={() => (<div><Navbar/><Home/></div>)}/>
+      <Route exact path="/projects/" render={() => (<div><Navbar/><Projects/></div>)}/>
+      <Route exact path="/projects/:python" render={() => (<div><Navbar/><Python_Projects/></div>)}/>
       <Route component = {Error}/>
     </Switch>
     </>
