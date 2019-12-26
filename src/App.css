@@ -84,6 +84,10 @@ a.facebook {
   color:#3b5998;
 }
 
+.name {
+  color: #ff5050;
+}
+
 .btn-primary {
   display: inline-block;
   text-decoration: none;

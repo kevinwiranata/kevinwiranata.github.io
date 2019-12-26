@@ -2,7 +2,8 @@ import React from 'react'
 import '../Star.css'
 import {Link} from 'react-router-dom'
 import '../Button.css'
-import logo from '../images/logo2.svg'
+import logo from '../images/logo3.png'
+import UCLA from '../images/ucla.png'
 import SocialFollow from '../components/SocialFollow'
 
 const Welcome = () => {
@@ -12,12 +13,16 @@ const Welcome = () => {
       <div id='stars2'></div>
       <div id='stars3'></div>
       <div className='title1'>
-        <div>Hello! <span>I'm Kevin Wiranata</span>.</div>
-        <div>I'm a Computer Engineer at UCLA.</div>
+        <div>Hello! I'm <span className='name'>Kevin Wiranata</span>.</div>
+        <div>I'm a Computer Engineer at&nbsp;
+          <img src={UCLA} alt="UCLA"/>
+         </div>
+        <br/>
+        <img src={logo} alt = "Home"/>
       </div>
       <div id='title'>
         <div className='box-1'>
-          <Link to='/home' className = 'btn btn-one'>
+          <Link to='/home' className = 'btn btn-three'>
           Enter
           </Link>
         </div>
