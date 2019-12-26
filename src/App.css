@@ -5,7 +5,6 @@
 }
 :root {
   --primaryColor: #af9a7d;
-
   --offWhite: #f7f7f7;
   --mainBlack: #222;
   --mainGrey: #ececec;
@@ -52,6 +51,37 @@ h6 {
   font-size: 1em;
   font-weight: bold;
   margin-bottom: 1.5em;
+}
+
+/* Social Icons*/
+.social-container {
+  padding: 25px, 50px;
+}
+
+a.social {
+  margin: 0 1.15rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover{
+  transform: translateY(-6px);
+}
+
+a.linkedin {
+  color: #0077B5;
+}
+
+a.github {
+  color: black
+}
+
+a.instagram {
+  color: #f7f7f7;
+}
+
+a.facebook {
+  color:#3b5998;
 }
 
 .btn-primary {
@@ -179,6 +209,7 @@ h6 {
   text-align: center;
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
+  width: 600px;
 }
 .banner h1 {
   font-size: 2.5rem;
