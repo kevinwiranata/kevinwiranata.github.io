@@ -1,18 +1,14 @@
-import React from 'react'
-import Hero from '../components/Hero' 
-import Banner from '../components/Banner'
-import {Link} from 'react-router-dom'
+import React, { Component } from 'react'
+import './Pages.css'
 
-const Contact = () => {
+export class Contact extends Component {
+  state = {}
+  render() {
     return (
-      <Hero>
-        <Banner title='404' subtitle='page not found'>
-          <Link to='/home' className='btn-primary'> 
-            return home
-          </Link>
-        </Banner>
-      </Hero>
+      <div className="contact-section">
+      </div>
     )
+  }
 }
 
 export default Contact

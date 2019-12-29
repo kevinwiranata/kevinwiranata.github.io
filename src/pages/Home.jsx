@@ -1,12 +1,15 @@
-import React from 'react'
-import Hero from '../components/Hero'
-import Banner from '../components/Banner'
+import React, { Component } from 'react'
+import './Pages.css'
 
-const Home = () => {
-  return (
-    <Hero>
-    </Hero>
-  )
+export class Home extends Component {
+  state = {}
+  render() {
+    return (
+      <div className="home-section">
+
+      </div>
+    )
+  }
 }
 
 export default Home

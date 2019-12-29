@@ -1,12 +1,15 @@
-import React from 'react'
-import Hero from '../components/Hero';
+import React, { Component } from 'react'
+import './Pages.css'
 
-const Projects = () => {
+export class Projects extends Component {
+  state = {}
+  render() {
     return (
-      <Hero>
+      <div className="project-section">
         
-      </Hero>
+      </div>
     )
+  }
 }
 
 export default Projects

@@ -6,8 +6,10 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Error from './pages/Error';
 import Navbar from './components/Navbar';
+import './pages/Pages.css'
 
 import {Route, Switch} from 'react-router-dom';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -18,9 +20,13 @@ function App() {
           <Welcome/>
         </div>
       )}/>
-      <Route exact path="/home" render={() => (<div><Navbar/><Home/></div>)}/>
-      <Route exact path="/projects/" render={() => (<div><Navbar/><Projects/></div>)}/>
-      <Route exact path="/contact" render={() => (<div><Navbar/><Home/></div>)}/>
+      <Route exact path="/home" render={() => (
+      <div>
+        <Navbar/>
+        <Home/>
+        <Projects/>
+        <Contact/>
+      </div>)}/>
       <Route component = {Error}/>
     </Switch>
     </>

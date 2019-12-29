@@ -1,0 +1,14 @@
+.home-section {
+  height: 100vh;
+  background-color: skyblue;
+}
+
+.project-section {
+  height: 100vh;
+  background-color: mediumpurple;
+}
+
+.contact-section {
+  height: 100vh;
+  background-color: tomato;
+}
