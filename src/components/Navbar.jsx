@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import logo from '../images/logo2.svg';
 import {FaAlignRight} from 'react-icons/fa'
 import {Link as LinkRoute} from 'react-router-dom'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link as LinkScroll } from "react-scroll";
 
 
 const navStyle = {
@@ -32,13 +32,48 @@ export default class Navbar extends Component {
           </div>
           <ul className={this.state.isOpen?"nav-links show-nav":"nav-links "}>
             <li>
-              <Link to="/home" style={navStyle}>Home</Link>
+              <LinkScroll 
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration= {888}
+              style={navStyle}>
+                Home
+              </LinkScroll>
             </li>
             <li>
-            <Link to="/projects" style={navStyle}>Projects</Link>
+              <LinkScroll 
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration= {888}
+              style={navStyle}>
+                About
+              </LinkScroll>
             </li>
             <li>
-            <Link to="/contact" style={navStyle}>Contact Me!</Link>
+            <LinkScroll 
+              to="project"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration= {888}
+              style={navStyle}>
+                Projects
+              </LinkScroll>
+            </li>
+            <li>
+            <LinkScroll 
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration= {888}
+              style={navStyle}>
+                Contact Me!
+              </LinkScroll>
             </li>
           </ul>
         </div>

@@ -136,6 +136,7 @@ a.facebook {
   display: flex;
   justify-content: space-between;
 }
+
 .nav-btn {
   background: transparent;
   border: none;
@@ -155,7 +156,7 @@ a.facebook {
 .nav-links a {
   display: block;
   text-decoration: none;
-  padding: 1rem 0;
+  padding: 0.6rem 0;
   color: var(--mainBlack);
   transition: var(--mainTransition);
   text-align: center;
@@ -168,7 +169,7 @@ a.facebook {
 }
 
 .show-nav {
-  height: 100px;
+  height: 210px;
 }
 @media screen and (min-width: 768px) {
   .nav-btn {
@@ -200,7 +201,7 @@ a.facebook {
   justify-content: center;
 }
 .roomsHero {
-  background-image: url("./images/room-2.jpeg");
+  background-image: url("./images/Mclaren.jpg");
   min-height: 60vh;
 }
 /* End of Hero */

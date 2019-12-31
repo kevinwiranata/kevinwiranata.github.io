@@ -80,6 +80,12 @@ html {
   color: #FFF;
 }
 
+@media screen and (max-width: 400px) {
+  .title1 {
+    font-size: 40px;
+  }
+}
+
 #title {
   position: absolute;
   top: 75%;
@@ -99,5 +105,12 @@ html {
   }
   to {
     transform: translateY(0px);
+  }
+}
+
+
+@media screen and (max-width: 878px) {
+  #optionalstuff  {
+    display:none;
   }
 }

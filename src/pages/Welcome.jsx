@@ -18,7 +18,7 @@ const Welcome = () => {
           <img src={UCLA} alt="UCLA"/>
          </div>
         <br/>
-        <img src={logo} alt = "Home"/>
+        <img id="optionalstuff" src={logo} alt = "Home"/>
       </div>
       <div id='title'>
         <div className='box-1'>

@@ -5,7 +5,7 @@ export class Projects extends Component {
   state = {}
   render() {
     return (
-      <div className="project-section">
+      <div className="project-section" id = "project">
         
       </div>
     )

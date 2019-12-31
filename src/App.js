@@ -5,8 +5,10 @@ import Welcome from './pages/Welcome';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Error from './pages/Error';
+import About from './pages/About';
 import Navbar from './components/Navbar';
 import './pages/Pages.css'
+
 
 import {Route, Switch} from 'react-router-dom';
 import Contact from './pages/Contact';
@@ -24,6 +26,7 @@ function App() {
       <div>
         <Navbar/>
         <Home/>
+        <About/>
         <Projects/>
         <Contact/>
       </div>)}/>
