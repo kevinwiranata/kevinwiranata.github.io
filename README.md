@@ -1,5 +1,5 @@
 Kevin Wiranata's Personal Website!
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Check out my Personal Website! http://kevinwiranata.netlify.com/
 
 ## Available Scripts
 
