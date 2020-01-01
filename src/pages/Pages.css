@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 .home-section {
   height: 100vh;
   background-color: skyblue;
@@ -5,7 +7,7 @@
 
 .about-section {
   height: 100vh;
-  background-color: mediumseagreen;
+  background-color: skyblue;
 }
 
 .project-section {
@@ -19,7 +21,7 @@
 }
 
 #intro.section {
-  background: url(../images/JY3A5919.JPG) no-repeat top
+  background: url(../images/JY3A5919.jpg) no-repeat top
     center/cover;
   position: relative;
 }
@@ -70,6 +72,32 @@
   background-color: #0077B5!important;
 }
 
+#intro.section .container-right {
+  color: white;
+  font-weight: 200;
+  left: 62%;
+  position: absolute;
+  top: 45%;
+  font-size: 25px;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 4rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.blinking{
+	animation:blinkingText 3s infinite;
+}
+
+@keyframes blinkingText{
+  0%{		color: #FFFFFF;	}
+  70%{		color: #FFFFFF;	}
+	90%{	color:transparent;	}
+	100%{	color: #FFFFFF;	}
+}
+
 @media screen and (max-width: 1110px) {
   .container {
     padding-top: 325px;
@@ -77,5 +105,11 @@
 
   h2 {
     font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .container-right {
+    display:none;
   }
 }

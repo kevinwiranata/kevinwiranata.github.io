@@ -36,7 +36,7 @@ export default class Navbar extends Component {
               to="home"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={0}
               duration= {888}
               style={navStyle}>
                 Home
@@ -47,7 +47,7 @@ export default class Navbar extends Component {
               to="about"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={0}
               duration= {888}
               style={navStyle}>
                 About
@@ -58,7 +58,7 @@ export default class Navbar extends Component {
               to="project"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={0}
               duration= {888}
               style={navStyle}>
                 Projects
