@@ -12,8 +12,8 @@ export class Home extends Component {
         <div class="overlay"></div>
         <div class="container">
           <h2>
-            I work to <span class="teal">build things</span><br/>that 
-            <span class="underline"> solve your problems</span>.
+            I work to <span class="teal">build things</span><br/> <span>that </span> 
+            <span class="underline">solve your problems</span>.
           </h2>
         </div>
         <div className="container-right">

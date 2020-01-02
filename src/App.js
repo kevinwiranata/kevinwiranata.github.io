@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 import Welcome from './pages/Welcome';
 import Home from './pages/Home';
-import Projects from './pages/Projects';
+import Portfolio from './pages/Portfolio';
 import Error from './pages/Error';
 import About from './pages/About';
 import Navbar from './components/Navbar';
@@ -27,7 +27,7 @@ function App() {
         <Navbar/>
         <Home/>
         <About/>
-        <Projects/>
+        <Portfolio/>
         <Contact/>
       </div>)}/>
       <Route component = {Error}/>

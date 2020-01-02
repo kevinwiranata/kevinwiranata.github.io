@@ -55,13 +55,13 @@ export default class Navbar extends Component {
             </li>
             <li>
             <LinkScroll 
-              to="project"
+              to="portfolio"
               spy={true}
               smooth={true}
               offset={-45}
               duration= {888}
               style={navStyle}>
-                Projects
+                Portfolio
               </LinkScroll>
             </li>
             <li>

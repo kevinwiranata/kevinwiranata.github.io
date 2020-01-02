@@ -6,8 +6,12 @@ const About = () => {
   return (
     <div className="about-section" id = "about">
       <div className="about-banner">
-      <h2>About me!</h2>
-        <p>I'm currently a second-year Computer Engineering Student at UCLA.</p>
+        <blockquote>
+          <h1>About me!</h1>
+        </blockquote>
+        <div className="description">
+          <span>Second year Computer Engineering Student at UCLA | Mission-driven Full Stack Developer & Data Junkie</span>
+        </div>
       </div>
       {/*<img src={Programmer} alt="programmer" className="programmer"/>*/}    
     </div>

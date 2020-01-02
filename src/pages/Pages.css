@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:500&display=swap');
 
 /* Page Sections*/
 .home-section {
@@ -14,7 +15,7 @@
   background-attachment: fixed;
 }
 
-.project-section {
+.portfolio-section {
   height: 100vh;
   background: url(../images/1XDJ9376.jpg) no-repeat top
   center/cover;
@@ -23,6 +24,7 @@
 }
 
 .contact-section {
+  padding-top: 20px;
   height: 100vh;
   background: url(../images/1XDJ9544.jpg) no-repeat top
   center/cover;
@@ -112,28 +114,80 @@ h1 {
 }
 
 .about-banner {
-  color: #777;
-  background-color:white;
-  text-align:center;
-  padding: 35px;
+  background-color:#FEFEFE;
+  padding-top: 1px;
+  padding-bottom: 15px;
+  padding-left: 35px;
   text-align: justify;
 }
 
-h2 {
-  text-align: center;
+
+blockquote {
+  border-left: 5px solid #0077B5;
+  color: #0077B5;
+  font-size: 50px;
+  font-weight: 400;
+  margin: 15px 0;
+  padding-left: 1.5rem;
 }
+
+blockquote * {
+  font-size: inherit;
+  line-height: inheritl
+}
+
 
 /* About Page End*/
-/* Project Page Start*/
+/* Portfolio Page Start*/
 
-.project-banner {
-  color:#ddd;
-  background-color:#282E34;
+.portfolio-banner {
+  background-color:#FEFEFE;
   text-align:center;
-  padding:50px 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 35px;
   text-align: justify;
 }
 
+.description {
+  padding-right: 30px;
+}
+
+.description span {
+  font-size: 20px;
+  color: #333333;
+  text-align: left!important;
+}
+
+.code {
+  padding-left: 29%;
+  font-size: 16px!important;
+  font-family: 'Roboto Slab', serif;
+}
+
+code {
+  padding: 0 2px;
+}
+
+/* Portfolio Page End*/
+/* Contact Page Start*/
+
+.contact-section .btn-primary {
+  background: var(--primaryColor);
+  border: 3px solid var(--primaryColor);
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.contact-section .btn-primary:hover {
+  background: transparent;
+  color: black;
+}
+
+.contact-section h1 {
+  text-align: center;
+  font-size: 50px;
+}
 
 @keyframes blinkingText{
   0%{		color: #FFFFFF;	}
@@ -165,7 +219,13 @@ h2 {
 }
 
 @media only screen and (max-width: 878px) {
-  .about-section, .project-section, .contact-section {
+  .about-section, .portfolio-section, .contact-section {
     background-attachment: scroll;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .code {
+    display:none;
   }
 }
