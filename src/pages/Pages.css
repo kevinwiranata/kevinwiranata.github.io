@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+/* Page Sections*/
 .home-section {
   height: 100vh;
   background-color: skyblue;
@@ -7,21 +8,32 @@
 
 .about-section {
   height: 100vh;
-  background-color: skyblue;
+  background: url(../images/1XDJ9644.jpg) no-repeat top
+  center/cover;
+  position: relative;
+  background-attachment: fixed;
 }
 
 .project-section {
   height: 100vh;
-  background-color: mediumpurple;
+  background: url(../images/1XDJ9376.jpg) no-repeat top
+  center/cover;
+  position: relative;
+  background-attachment: fixed;
 }
 
 .contact-section {
   height: 100vh;
-  background-color: tomato;
+  background: url(../images/1XDJ9544.jpg) no-repeat top
+  center/cover;
+  position: relative;
+  background-attachment: fixed;
 }
 
+/* Home Page Start*/
+/**/
 #intro.section {
-  background: url(../images/JY3A5919.jpg) no-repeat top
+  background: url(../images/Profile.jpg) no-repeat top
     center/cover;
   position: relative;
 }
@@ -88,8 +100,40 @@ h1 {
 }
 
 .blinking{
-	animation:blinkingText 3s infinite;
+	animation:blinkingText 0.9s infinite;
 }
+
+/* Home Page End*/
+/* About Page Start*/
+
+.programmer {
+  height: 60%;
+  width: auto
+}
+
+.about-banner {
+  color: #777;
+  background-color:white;
+  text-align:center;
+  padding: 35px;
+  text-align: justify;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* About Page End*/
+/* Project Page Start*/
+
+.project-banner {
+  color:#ddd;
+  background-color:#282E34;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
 
 @keyframes blinkingText{
   0%{		color: #FFFFFF;	}
@@ -111,5 +155,17 @@ h1 {
 @media screen and (max-width: 1030px) {
   .container-right {
     display:none;
+  }
+}
+
+@media screen and (min-width: 878px) {
+  #intro.section {
+    background-attachment: fixed
+  }
+}
+
+@media only screen and (max-width: 878px) {
+  .about-section, .project-section, .contact-section {
+    background-attachment: scroll;
   }
 }

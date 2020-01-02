@@ -47,7 +47,7 @@ export default class Navbar extends Component {
               to="about"
               spy={true}
               smooth={true}
-              offset={0}
+              offset={-45}
               duration= {888}
               style={navStyle}>
                 About
@@ -58,7 +58,7 @@ export default class Navbar extends Component {
               to="project"
               spy={true}
               smooth={true}
-              offset={0}
+              offset={-45}
               duration= {888}
               style={navStyle}>
                 Projects
@@ -69,7 +69,7 @@ export default class Navbar extends Component {
               to="contact"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={-45}
               duration= {888}
               style={navStyle}>
                 Contact Me!

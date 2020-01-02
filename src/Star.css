@@ -99,6 +99,7 @@ html {
   letter-spacing: 6px;
 }
 
+
 @keyframes animStar {
   from {
     transform: translateY(-3300px);

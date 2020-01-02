@@ -6,7 +6,9 @@ export class Projects extends Component {
   render() {
     return (
       <div className="project-section" id = "project">
-        
+        <div className="project-banner">
+          <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+        </div>
       </div>
     )
   }
