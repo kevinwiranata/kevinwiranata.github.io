@@ -11,8 +11,8 @@ export class Contact extends React.Component {
             <div id="main">
               <article id="contact">
                 <h2 class="major">Contact</h2>
-                <form action="POST" name="contacts" method="post" data-netlify="true">
-                  <input type="hidden" name="form-name" value="contacts"/>
+                <form name="contacts" method="post" data-netlify="true">
+                   <input type="hidden" name="form-name" value="contact" />
                   <div class="fields">
                     <div class="field half">
                       <label for="name">Name</label>
