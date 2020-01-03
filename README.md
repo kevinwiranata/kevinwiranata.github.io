@@ -1,4 +1,4 @@
-### My Personal Website
+# My Personal Website
 
 Kevin Wiranata's Personal Website!
 Check out my Personal Website! http://kevinwiranata.com
