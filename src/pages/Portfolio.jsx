@@ -1,5 +1,5 @@
 import React from 'react'
-import './Pages.css'
+import '../css/Pages.css';
 
 export class Portfolio extends React.Component {
   state = {}

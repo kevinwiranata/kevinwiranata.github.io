@@ -6,7 +6,7 @@ import {
   faInstagram,
   faFacebook
 } from "@fortawesome/free-brands-svg-icons"
-import '../App.css'
+import '../css/App.css'
 
 export default function   socialFollow() {
   return (

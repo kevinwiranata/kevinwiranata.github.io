@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Pages.css';
+import '../css/Pages.css';
 import Typical from 'react-typical';
 
 

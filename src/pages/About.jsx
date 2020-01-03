@@ -1,6 +1,6 @@
 import React from 'react'
 //import Programmer from '../images/Programmer.jpg'
-import './Pages.css';
+import '../css/Pages.css';
 
 const About = () => {
   return (

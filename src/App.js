@@ -1,13 +1,13 @@
 import React from 'react';
 //import logo from './logo.svg';
-import './App.css';
+import './css/App.css'
 import Welcome from './pages/Welcome';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Error from './pages/Error';
 import About from './pages/About';
 import Navbar from './components/Navbar';
-import './pages/Pages.css'
+import './css/Pages.css';
 
 
 import {Route, Switch} from 'react-router-dom';

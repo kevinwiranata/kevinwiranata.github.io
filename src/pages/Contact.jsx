@@ -1,5 +1,4 @@
 import React from 'react'
-//import './Pages.css'
 import SocialFollow from '../components/SocialFollow'
 
 export class Contact extends React.Component {
