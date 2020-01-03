@@ -11,9 +11,10 @@ Fun project over the 2019-2020 short winter break (thanks quarter system).
 - [Netlify](https://www.netlify.com/) - I used netlify to host my site, it's sweet cuz it has continous CI/CD and has built-in form handling so I don't have to hassle with Node.js or PHP.
 - [Bootstrap](https://getbootstrap.com/) - Although old classic boostrap never fails to dissapoint, I didn't use everything it had to offer, I only took snippets from their CSS framework and wrote a bunch of my own css.
 
-## How can I run this on my local machine?
+## How can I run this on my local machine? 
 Simply clone this repo and run it!
 ``` 
 git clone https://github.com/kevinwiranata/Personal-Website.git
+cd Personal-Website
 npm start
 ```
