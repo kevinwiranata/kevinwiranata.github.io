@@ -12,6 +12,7 @@ export class Contact extends React.Component {
               <article id="contact">
                 <h2 class="major">Contact</h2>
                 <form action="POST" name="contacts" method="post" data-netlify="true">
+                  <input type="hidden" name="form-name" value="contacts"/>
                   <div class="fields">
                     <div class="field half">
                       <label for="name">Name</label>
@@ -19,7 +20,7 @@ export class Contact extends React.Component {
                     </div>
                     <div class="field half">
                       <label for="email">Email</label>
-                      <input type="text" name="email" id="email" />
+                      <input type="email" name="email" id="email" />
                     </div>
                     <div class="field">
                       <label for="message">Message</label>
