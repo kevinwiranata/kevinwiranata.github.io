@@ -11,7 +11,7 @@ export class Contact extends React.Component {
             <div id="main">
               <article id="contact">
                 <h2 class="major">Contact</h2>
-                <form action="POST" data-netlify="true">
+                <form method="POST" data-netlify="true">
                   <div class="fields">
                     <div class="field half">
                       <label for="name">Name</label>
