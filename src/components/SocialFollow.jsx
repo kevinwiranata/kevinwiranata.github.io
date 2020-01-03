@@ -8,7 +8,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons"
 import '../App.css'
 
-export default function socialFollow() {
+export default function   socialFollow() {
   return (
     <div className='social-container'>
       <a href="https://www.facebook.com/kevin.wiranata123/" className='facebook social'>

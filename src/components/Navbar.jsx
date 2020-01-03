@@ -69,7 +69,7 @@ export default class Navbar extends Component {
               to="contact"
               spy={true}
               smooth={true}
-              offset={-45}
+              offset={-66}
               duration= {888}
               style={navStyle}>
                 Contact Me!

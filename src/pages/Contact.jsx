@@ -1,73 +1,48 @@
 import React from 'react'
-import axios from 'axios'
-import './Pages.css'
+//import './Pages.css'
+import SocialFollow from '../components/SocialFollow'
 
 export class Contact extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: '',
-      email: '',
-      message: ''
-    }
-  }
-
-  handleSubmit(e){
-    e.preventDefault();
-    axios({
-      method: "POST", 
-      url:"http://localhost:3002/send", 
-      data:  this.state
-    }).then((response)=>{
-      if (response.data.status === 'success'){
-        alert("Message Sent."); 
-        this.resetForm()
-      }else if(response.data.status === 'fail'){
-        alert("Message failed to send.")
-      }
-    })
-  }
-
-  resetForm(){
-    
-     this.setState({name: '', email: '', message: ''})
-  }
-
   render() {
     return (
-      <div className="contact-section" id = "contact">
-        <h1>Contact Me!</h1>
-        <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
-          <div className="form-group">
-            <label htmlFor="name">Name</label>
-            <input type="text" className="form-control" value={this.state.name} onChange={this.onNameChange.bind(this)} />
+      <div className="contact-section">
+        <body class="is-preload">
+          <div id="wrapper">
+            <div id="main">
+              <article id="contact">
+                <h2 class="major">Contact</h2>
+                <form action="POST" data-netlify="true">
+                  <div class="fields">
+                    <div class="field half">
+                      <label for="name">Name</label>
+                      <input type="text" name="name" id="name" />
+                    </div>
+                    <div class="field half">
+                      <label for="email">Email</label>
+                      <input type="text" name="email" id="email" />
+                    </div>
+                    <div class="field">
+                      <label for="message">Message</label>
+                      <textarea name="message" id="message" rows="4"></textarea>
+                    </div>
+                  </div>
+                  <ul class="actions">
+                    <li><input type="submit" value="Send Message" class="primary" /></li>
+                    <li><input type="reset" value="Reset" /></li>
+                  </ul>
+                </form>
+                <div className="social">
+                  <SocialFollow/>
+                </div>
+                <br/>
+                <h4 className="email">Email: kevinwiranata@ucla.edu</h4>
+              </article>
+            </div>
           </div>
-          <div className="form-group">
-            <label htmlFor="exampleInputEmail1">Email address</label>
-            <input type="email" className="form-control" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
-          </div>
-          <div className="form-group">
-            <label htmlFor="message">Message</label>
-            <textarea className="form-control" rows="5" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
-          </div>
-          <button type="submit" className=" btn-primary">Submit</button>
-        </form>
+        </body>
       </div>
     );
   }
-
-  onNameChange(event) {
-    this.setState({name: event.target.value})
-    }
-  
-  onEmailChange(event) {
-    this.setState({email: event.target.value})
-  }
-
-  onMessageChange(event) {
-    this.setState({message: event.target.value})
-  }
-    
 }
 
 export default Contact
