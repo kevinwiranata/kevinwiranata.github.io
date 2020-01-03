@@ -195,7 +195,7 @@ a.facebook {
 .defaultHero,
 .roomsHero {
   min-height: calc(100vh);
-  background: url("./images/Mclaren.jpg") center/cover no-repeat;
+  background: url("./images/1XDJ9544.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -209,7 +209,7 @@ a.facebook {
 .banner {
   display: inline-block;
   background: rgba(0, 0, 0, 0.5);
-  color: var(--mainWhite);
+  color: white;
   padding: 2rem 1rem;
   text-align: center;
   text-transform: capitalize;
