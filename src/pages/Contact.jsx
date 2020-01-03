@@ -11,7 +11,7 @@ export class Contact extends React.Component {
             <div id="main">
               <article id="contact">
                 <h2 class="major">Contact</h2>
-                <form name="contacts" netlify netlify-honeypot="bot-field" hidden>
+                <form action="POST" name="contacts" method="post" data-netlify="true">
                   <div class="fields">
                     <div class="field half">
                       <label for="name">Name</label>
@@ -24,6 +24,9 @@ export class Contact extends React.Component {
                     <div class="field">
                       <label for="message">Message</label>
                       <textarea name="message" id="message" rows="4"></textarea>
+                    </div>
+                    <div class="field">
+                      <div data-netlify-recaptcha="true"></div>
                     </div>
                   </div>
                   <ul class="actions">
