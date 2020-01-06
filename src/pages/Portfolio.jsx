@@ -29,7 +29,7 @@ export class Portfolio extends React.Component {
           </div>
         </div>
 
-        <Slider autoplay={1000} infinite={true}>
+        {/* <Slider autoplay={1000} infinite={true}>
           {slides.map((slide, index) => <div key={index}>
             <div className={slide.className}>
               <img id="image" src={slide.image} alt="logo"/>
@@ -37,7 +37,7 @@ export class Portfolio extends React.Component {
               <div>{slide.description}</div>
             </div>
           </div>)}
-        </Slider>
+        </Slider> */}
       </div>
     )
   }

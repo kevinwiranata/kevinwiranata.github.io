@@ -1064,6 +1064,11 @@ article .email {
   padding-top: 20px;
 }
 
+img.resize {
+  height: 44px;
+  width: auto;
+}
+
 
 @media screen and (max-width: 736px) {
 
