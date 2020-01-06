@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from '../images/logo2.svg';
+import logo from '../images/logo4.svg';
 import {FaAlignRight} from 'react-icons/fa'
 import {Link as LinkRoute} from 'react-router-dom'
 import { Link as LinkScroll } from "react-scroll";
