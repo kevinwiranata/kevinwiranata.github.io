@@ -9,7 +9,7 @@ import acm from '../images/acmai.png'
 const slides = [
   { title: 'Alterra', description: 'Software Engineering Internship', className: 'wrap1', image: alterra},
   { title: 'Speakly', description: 'Lorem ipsum', className: 'wrap2', image: lahacks},
-  { title: 'Project Artage', description: 'Lorem ipsum', className: 'wrap3', image: acm}
+  // { title: 'Project Artage', description: 'Lorem ipsum', className: 'wrap3', image: acm}
   
 ];
 
@@ -29,15 +29,15 @@ export class Portfolio extends React.Component {
           </div>
         </div>
 
-        {/* <Slider autoplay={1000} infinite={true}>
+        <Slider autoplay={2000} infinite={true}>
           {slides.map((slide, index) => <div key={index}>
             <div className={slide.className}>
-              <img id="image" src={slide.image} alt="logo"/>
-              <h1 className= "slider-h1">{slide.title}</h1>
+              <img src={slide.image} alt="logo" id="image"/>
+              <span className= "slider-h1">{slide.title}</span>
               <div>{slide.description}</div>
             </div>
           </div>)}
-        </Slider> */}
+        </Slider>
       </div>
     )
   }

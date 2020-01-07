@@ -969,23 +969,6 @@ article .email {
 }
 
 .wrap1 {
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  -moz-flex-direction: column;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -moz-align-items: center;
-  -webkit-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
-  -moz-justify-content: space-between;
-  -webkit-justify-content: space-between;
-  -ms-justify-content: space-between;
-  justify-content: space-between;
-  position: relative;
   background-image: url('../images/whitePolygon.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -996,31 +979,14 @@ article .email {
   padding-bottom: 40px;
 }
 
-#image {
-  top: 5%;
-  left: 10%!important;
-  align-items: left!important;
-  text-align: left!important;
+.wrap1 #image {
+  padding-top: 20px;
+  padding-left: 50px;
+  max-height: 150px;
+  max-width: auto;
 }
 
 .wrap2 {
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  -moz-flex-direction: column;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -moz-align-items: center;
-  -webkit-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
-  -moz-justify-content: space-between;
-  -webkit-justify-content: space-between;
-  -ms-justify-content: space-between;
-  justify-content: space-between;
-  position: relative;
   background-image: url('../images/whitePolygon.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -1029,26 +995,17 @@ article .email {
   margin-right: 10%;
   height: 90%;
   padding-bottom: 40px;
+  
+}
+
+.wrap2 #image {
+  padding-top: 20px;
+  padding-left: 50px;
+  max-height: 150px;
+  max-width: auto;
 }
 
 .wrap3 {
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  -moz-flex-direction: column;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -moz-align-items: center;
-  -webkit-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
-  -moz-justify-content: space-between;
-  -webkit-justify-content: space-between;
-  -ms-justify-content: space-between;
-  justify-content: space-between;
-  position: relative;
   background-image: url('../images/whitePolygon.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -1061,7 +1018,9 @@ article .email {
 
 
 .slider-h1 {
-  padding-top: 20px;
+  font-size: 60px;
+  margin-left: 23%;
+  position: absolute;
 }
 
 img.resize {
