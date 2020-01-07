@@ -3,7 +3,6 @@ import '../css/Star.css'
 import {Link} from 'react-router-dom'
 import '../css/Button.css'
 import logo from '../images/logo3.png'
-//import UCLA from '../images/ucla.png'
 import SocialFollow from '../components/SocialFollow'
 
 const Welcome = () => {
@@ -15,7 +14,6 @@ const Welcome = () => {
       <div className='title1'>
         <div>Hello! I'm <span className='name'>Kevin Wiranata</span></div>
         <div>I'm a Computer Engineer at UCLA
-          {/*<img src={UCLA} className="ucla" alt="UCLA"/>*/}
          </div>
         <br/>
         <img id="optionalstuff" src={logo} alt = "Home"/>
