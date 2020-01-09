@@ -35,9 +35,9 @@ const About = () => {
             <hr/>
           </div>
           <div class = "items price">
-            <p class="old"><span className="area">Frontend: </span>Reactjs, HTML5, CSS3/SASS, Node.js</p>
+            <p class="new"><span className="area">Frontend: </span>Reactjs, HTML5, CSS3/SASS, Node.js</p>
             <p class="new"><span className="area">Backend: </span>Nestjs, ExpressJS, Typescript, SQL, MongoDB</p>
-            <p class="new"><span className="area">Other: </span>C/C++, Git, Vim, Shell/Bash, TDD, x86-64, Verilog, Ansys, </p>
+            <p class="old"><span className="area">Other: </span>C/C++, Git, Vim, Shell/Bash, TDD, x86-64, Verilog, Ansys, </p>
           </div>
           <div class="items cart">
             <i class="fa fa-shopping-cart"></i>
