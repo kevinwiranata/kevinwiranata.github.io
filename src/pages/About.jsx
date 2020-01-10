@@ -44,15 +44,20 @@ const About = () => {
             <img src={reactLogo} alt="react" className="resize"></img>
             <span/>
             <img src={jsLogo} alt="javascript" className="resize"></img>
-            <span/><span/>
+            <span/>
+            <span/>
             <img src={tsLogo} alt="typescript" className="resize"></img>
-            <span/><span/>
+            <span/>
+            <span/>
             <img src={nestLogo} alt="nest" className="resize"></img>
-            <br/><br/>
+            <br/>
+            <br/>
             <img src={htmlLogo} alt="html" className="resize"></img>
-            <span/><span/>
+            <span/>
+            <span/>
             <img src={cssLogo} alt="css" className="resize"></img>
-            <span/><span/>
+            <span/>
+            <span/>
             <img src={nodeLogo} alt="node" className="resize"></img>
           </div>
         </div>
@@ -71,16 +76,24 @@ const About = () => {
           <div class="items cart">
             <i class="fa fa-shopping-cart"></i>
             <img src={STMLogo} alt="STM" className="resize"></img>
-            <span/><span/>
+            <span/>
+            <span/>
             <img src={ArduinoLogo} alt="Arduino" className="resize"></img>
-            <span/><span/>
+            <span/>
+            <span/>
             <img src={EnergiaLogo} alt="Energia" className="resize"></img>
             <br/>
             <br/>
             <img src={PythonLogo} alt="Python" className="resize"></img>
-            <span/><span/><span/><span/>
+            <span/>
+            <span/>
+            <span/>
+            <span/>
             <img src={KerasLogo} alt="Keras" className="resize"></img>
-            <span/><span/><span/><span/>
+            <span/>
+            <span/>
+            <span/>
+            <span/>
             <img src={TensorLogo} alt="Tensorflow" className="resize"></img>
 
           </div>

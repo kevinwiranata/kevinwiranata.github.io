@@ -365,6 +365,121 @@ code {
   padding: 0 2px;
 }
 
+.cards {
+  padding: 0px;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.cards h1 {
+  font-size: 56px;
+}
+body * {
+  box-sizing: border-box;
+}
+
+.card-container {
+  flex: 300px;
+  margin: 30px;
+}
+.card-container .card {
+  font-weight: bold;
+  position: relative;
+  width: 100%;
+}
+.card-container .card a {
+  padding: 30px;
+  width: 100%;
+  height: 430px;
+  border: 2px solid black;
+  background: white;
+  text-decoration: none;
+  color: black;
+  display: block;
+  transition: 0.25s ease;
+}
+.card-container .card a:hover {
+  transform: translate(-30px, -30px);
+  border-color: #5bc0eb;
+}
+.card-container .card a:hover .card--display {
+  display: none;
+}
+.card-container .card a:hover .card--hover {
+  display: block;
+}
+.card-container .card a .card--display i {
+  font-size: 60px;
+  margin-top: 200px;
+}
+.card-container .card a .card--display h2 {
+  margin: 20px 0 0;
+}
+.card-container .card a .card--hover {
+  display: none;
+}
+
+.card-container .card a .card--hover p {
+  font-weight: normal;
+
+}
+.card-container .card a .card--hover p.link {
+  margin: 10px 0 0;
+  font-weight: bold;
+  color: #5bc0eb;
+}
+.card-container .card .card--border {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border: 2px dashed black;
+  z-index: -1;
+}
+.card-container .card.card--dark a {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+.card-container .card.card--dark a .card--hover .link {
+  color: #fde74c;
+}
+
+.card .image {
+  height: 90px;
+  width: auto;
+}
+
+.card .image-right {
+  height: 80px;
+  width: auto;
+  margin-left: 10%;
+}
+
+.card-title {
+  display:inline-block;
+}
+
+.image-hover1 {
+  height: 40px;
+  padding-left: 20px;
+  width: auto;
+}
+
+.image-hover2 {
+  height: 60px;
+  padding-left: 20px;
+  margin-top: auto;
+  width: auto;
+}
+
+.image-hover3 {
+  height: 188px;
+  width: auto;
+  display:inline-block;
+}
+
 /* Portfolio Page End*/
 /* Contact Page Start*/
 
@@ -695,61 +810,6 @@ ul.actions {
 article .email {
   color: white;
   letter-spacing: 1px;
-}
-
-.wrap1 {
-  background-image: url('../images/whitePolygon.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
-  height: 90%;
-  padding-bottom: 40px;
-}
-
-.wrap1 #image {
-  padding-top: 20px;
-  padding-left: 50px;
-  max-height: 150px;
-  max-width: auto;
-}
-
-.wrap2 {
-  background-image: url('../images/whitePolygon.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
-  height: 90%;
-  padding-bottom: 40px;
-  
-}
-
-.wrap2 #image {
-  padding-top: 20px;
-  padding-left: 50px;
-  max-height: 150px;
-  max-width: auto;
-}
-
-.wrap3 {
-  background-image: url('../images/whitePolygon.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
-  height: 90%;
-  padding-bottom: 40px;
-}
-
-
-.slider-h1 {
-  font-size: 60px;
-  margin-left: 23%;
-  position: absolute;
 }
 
 img.resize {
