@@ -54,8 +54,8 @@ export class Portfolio extends React.Component {
           <div class="card-container"> 
             <div class="card"><a href="https://github.com/kevinwiranata/Speakly" target="_blank" rel="noopener noreferrer">
                 <div class="card--display">
-                <img src={speakly} alt="alterra" className="image"/>
-                <img src={lahacks} alt="alterra" className="image-right"/>
+                <img src={speakly} alt="speakly" className="image"/>
+                <img src={lahacks} alt="lahacks" className="image-right"/>
                 <br/><br/><br/><br/><br/><br/>
                   <h1>Speakly</h1>
                   <h3>Public Speaking Algorithm</h3>
@@ -63,8 +63,8 @@ export class Portfolio extends React.Component {
                 </div>
                 <div class="card--hover">
                   <h2 className="card-title">Speakly</h2> 
-                  <img src={speakly} alt="alterra" className="image-hover2"/>
-                  <img src={cloud} alt="alterra" className="image-hover1"/>
+                  <img src={speakly} alt="speakly" className="image-hover2"/>
+                  <img src={cloud} alt="gcloud" className="image-hover1"/>
                   <h4>Awarded Best use of Google Cloud API (LA Hacks 2019)</h4>
                   <ul>
                     <li>Speakly uses Google's Speech-To-Text, Natural Language, and Vision API to track the speaker’s facial movements and emotions</li>

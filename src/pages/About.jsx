@@ -1,17 +1,21 @@
-import React from 'react'
+import React from 'react';
 import reactLogo from '../images/react.png';
 import jsLogo from '../images/js.png';
 import tsLogo from '../images/typescript.png';
 import nestLogo from '../images/nest.png';
-import htmlLogo from '../images/html.png'
-import cssLogo from '../images/css.png'
+import htmlLogo from '../images/html.png';
+import cssLogo from '../images/css.png';
 import nodeLogo from '../images/node.png'
 import STMLogo from '../images/STM.png';
-import ArduinoLogo from '../images/Arduino.png'
-import EnergiaLogo from '../images/Energia.png'
-import PythonLogo from '../images/Python.png'
-import TensorLogo from '../images/Tensorflow.png'
+import ArduinoLogo from '../images/Arduino.png';
+import EnergiaLogo from '../images/Energia.png';
+import PythonLogo from '../images/Python.png';
+import TensorLogo from '../images/Tensorflow.png';
 import KerasLogo from '../images/keras.png'
+import F1Logo from '../images/f1.png';
+import atpLogo from '../images/atp.png';
+import wtaLogo from '../images/wta.png';
+import bwfLogo from '../images/bwf.png';
 import '../css/Pages.css';
 
 const About = () => {
@@ -44,20 +48,15 @@ const About = () => {
             <img src={reactLogo} alt="react" className="resize"></img>
             <span/>
             <img src={jsLogo} alt="javascript" className="resize"></img>
-            <span/>
-            <span/>
+            <span/><span/>
             <img src={tsLogo} alt="typescript" className="resize"></img>
-            <span/>
-            <span/>
+            <span/><span/>
             <img src={nestLogo} alt="nest" className="resize"></img>
-            <br/>
-            <br/>
+            <br/><br/>
             <img src={htmlLogo} alt="html" className="resize"></img>
-            <span/>
-            <span/>
+            <span/><span/>
             <img src={cssLogo} alt="css" className="resize"></img>
-            <span/>
-            <span/>
+            <span/><span/>
             <img src={nodeLogo} alt="node" className="resize"></img>
           </div>
         </div>
@@ -76,26 +75,16 @@ const About = () => {
           <div class="items cart">
             <i class="fa fa-shopping-cart"></i>
             <img src={STMLogo} alt="STM" className="resize"></img>
-            <span/>
-            <span/>
+            <span/><span/>
             <img src={ArduinoLogo} alt="Arduino" className="resize"></img>
-            <span/>
-            <span/>
+            <span/><span/>
             <img src={EnergiaLogo} alt="Energia" className="resize"></img>
-            <br/>
-            <br/>
+            <br/><br/>
             <img src={PythonLogo} alt="Python" className="resize"></img>
-            <span/>
-            <span/>
-            <span/>
-            <span/>
+            <span/><span/><span/><span/>
             <img src={KerasLogo} alt="Keras" className="resize"></img>
-            <span/>
-            <span/>
-            <span/>
-            <span/>
+            <span/><span/><span/><span/>
             <img src={TensorLogo} alt="Tensorflow" className="resize"></img>
-
           </div>
         </div>
       </div>
@@ -103,16 +92,23 @@ const About = () => {
       <div class="container right">
         <div class="overlay">
           <div class = "items head">
-            <p>Hobbies</p>
+            <p>Pun Trivia Facts!</p>
             <hr/>
           </div>
           <div class = "items price">
-            <p class="old">Description 1</p>
-            <p class="new">Description 2</p>
+            <p class="old">I'm a decent petrolhead, but sometimes car puns can be <i>exhausting</i>...</p>
+            <p class="old">I love to talk - part of me is just being so chatty that sometimes I cause a <i>racquet</i>...</p>
+            <p class="new">tldr; I'm a <i>huge</i> fan of Motorsport (F1, WEC & WRC), Tennis (ATP & WTA) and Badminton!</p>
+
           </div>
           <div class="items cart">
             <i class="fa fa-shopping-cart"></i>
-            <span>Logos go here</span>
+            <img src={F1Logo} alt="F1" className="resize"></img>
+            <img src={atpLogo} alt="ATP" className="resize"></img>
+            <span/>
+            <img src={wtaLogo} alt="WTA" className="resize"></img>
+            <span/><span/>
+            <img src={bwfLogo} alt="BWF" className="resize"></img>
           </div>
         </div>
       </div>
