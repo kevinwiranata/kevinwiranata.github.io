@@ -15,6 +15,49 @@
   background-attachment: fixed;
 }
 
+@media all and (min-width: 19in) {
+  #about .container.left {
+    width: 450px;
+    height: 550px;
+  }
+  
+  #about .container.middle {
+    width: 450px;
+    height: 550px;
+  }
+  
+  #about .container.right {
+    width: 450px;
+    height: 550px;
+  }
+
+  .price .old {
+    font-size: 22px;
+    line-height: 30px!important;
+  }
+
+  .price .new {
+    font-size: 22px;
+    line-height: 30px!important;
+  }
+  .resize {
+    height: 88px;
+    width: auto;
+  }
+
+  .card-container .card a {
+    height: 600px!important;
+  }
+
+  .h1-portfolio {
+    padding-top: 52%!important;
+  }
+
+  .card-text {
+    font-size: 20px!important;
+  }
+} 
+
 @media only screen and (max-width: 1030px) {
   .about-section {
     background-attachment: scroll;
@@ -226,6 +269,7 @@ blockquote * {
   padding-left: 20px;
   letter-spacing: 3px;
 }
+
 .head {
   font-size: 30px;
   line-height: 35px;
@@ -478,6 +522,10 @@ body * {
   height: 188px;
   width: auto;
   display:inline-block;
+}
+
+.h1-portfolio {
+  padding-top: 35%;
 }
 
 /* Portfolio Page End*/

@@ -28,8 +28,7 @@ export class Portfolio extends React.Component {
             <div class="card"><a href="https://www.alterra.id/about-us/" target="_blank" rel="noopener noreferrer">
                 <div class="card--display">
                   <img src={alterra} alt="alterra" className="image"/>
-                  <br/><br/><br/><br/><br/><br/>
-                  <h1>Alterra</h1>
+                  <h1 class = "h1-portfolio">Alterra</h1>
                   <h3>Software Engineering Intern</h3>
                   <p>July - September 2019</p>
                 </div>
@@ -37,7 +36,7 @@ export class Portfolio extends React.Component {
                   <h2 className="card-title">Alterra</h2>
                   <img src={alterra} alt="alterra" className="image-hover1"/>
                   <h4>Software Engineering Intern | July - Sept 2019</h4>
-                  <ul>
+                  <ul class = "card-text">
                     <li>Built a server-side application for a flexible billing system using nestJS and Express.js, reducing biller API integration time by 90%</li>
                     <br/>
                     <li>Researched and implemented Node.js microservices (rabbitMQ, redis, amqp) in typescript to provide asynchronous operations to external system configuration and processes</li>
@@ -45,8 +44,8 @@ export class Portfolio extends React.Component {
                     <li>Managed gitflow using Gitlab CI/CD for staging, and Sonarqube + GitPrime for code analysis</li>
                   </ul>
                   <br/>
-                  <p><strong>Tech Stack:</strong> Typescript, nestJS, Express.JS, mongoDB, redis, rabbitMQ </p>
-                  <p><strong>Other:</strong> TDD, Unit-testing, End-to-End testing</p>
+                  <p class = "card-text"><strong>Tech Stack:</strong> Typescript, nestJS, Express.JS, mongoDB, redis, rabbitMQ </p>
+                  <p class = "card-text"><strong>Other:</strong> TDD, Unit-testing, End-to-End testing</p>
                 </div></a>
               <div class="card--border"></div>
             </div>
@@ -56,8 +55,7 @@ export class Portfolio extends React.Component {
                 <div class="card--display">
                 <img src={speakly} alt="speakly" className="image"/>
                 <img src={lahacks} alt="lahacks" className="image-right"/>
-                <br/><br/><br/><br/><br/><br/>
-                  <h1>Speakly</h1>
+                  <h1 class = "h1-portfolio">Speakly</h1>
                   <h3>Public Speaking Algorithm</h3>
                   <p>March 2019 (LA Hacks 2019)</p>
                 </div>
@@ -66,13 +64,13 @@ export class Portfolio extends React.Component {
                   <img src={speakly} alt="speakly" className="image-hover2"/>
                   <img src={cloud} alt="gcloud" className="image-hover1"/>
                   <h4>Awarded Best use of Google Cloud API (LA Hacks 2019)</h4>
-                  <ul>
+                  <ul class = "card-text">
                     <li>Speakly uses Google's Speech-To-Text, Natural Language, and Vision API to track the speaker’s facial movements and emotions</li>
                     <br/>
                     <li>The program then utilizes this information and runs an algorithm to grade and highlight specific areas the speaker needs to improve</li>
                   </ul>
                   <br/>
-                  <p><strong>Tech Stack:</strong> Python, Google Cloud API (Vision, Speech-to-Text, NLP), HTML/CSS, PHP  </p>
+                  <p class = "card-text"><strong>Tech Stack:</strong> Python, Google Cloud API (Vision, Speech-to-Text, NLP), HTML/CSS, PHP  </p>
                 </div></a>
               <div class="card--border"></div>
             </div>
@@ -81,17 +79,16 @@ export class Portfolio extends React.Component {
             <div class="card"><a href="https://github.com/kevinwiranata/Project-Artage" target="_blank" rel="noopener noreferrer">
                 <div class="card--display">
                 <img src={acm} alt="acm" className="image"/>
-                <br/><br/><br/><br/><br/><br/>
-                  <h1>Project Artage</h1>
+                  <h1 class = "h1-portfolio">Project Artage</h1>
                   <h3>Convolution Neural Network</h3>
                   <p>February 2019</p>
                 </div>
                 <div class="card--hover">
                   <h2>Project Artage</h2>
-                  <h4>A Convolutional Neural Network that looks for particular features in paintings and predicts the year artwork was made</h4>
+                  <h4 class = "card-text">A Convolutional Neural Network that looks for particular features in paintings and predicts the year artwork was made</h4>
                   <img src={artage} alt="artage" className="image-hover3"/>
                   <br/>
-                  <p><strong>Tech Stack:</strong> Python (numpy, pandas, keras, scipy), HTML, PHP </p>
+                  <p class = "card-text"><strong>Tech Stack:</strong> Python (numpy, pandas, keras, scipy), HTML, PHP </p>
                 </div></a>
               <div class="card--border"></div>
             </div>
