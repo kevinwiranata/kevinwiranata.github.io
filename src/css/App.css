@@ -99,6 +99,7 @@ a.facebook {
   background: var(--offWhite);
   z-index: 1;
 }
+
 .nav-header {
   display: flex;
   justify-content: space-between;
@@ -143,7 +144,6 @@ a.facebook {
     display: none;
   }
   .nav-center {
-    max-width: 1500px;
     margin: 0 auto;
     display: flex;
   }
