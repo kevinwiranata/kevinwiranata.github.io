@@ -18,3 +18,10 @@ git clone https://github.com/kevinwiranata/Personal-Website.git
 cd Personal-Website
 npm start
 ```
+
+## Todo
+- [ ] Update CSS media querys for smartphone
+- [x] Update CSS media querys for desktop
+- [x] Finish portfolio descriptions
+- [x] Finish about descriptions
+- [x] Update Navbar
