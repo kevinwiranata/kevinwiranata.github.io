@@ -160,6 +160,7 @@
 }
 #intro.section .underline {
   border-bottom: 5px solid  ;
+  border-bottom-color: #0077B5;
 }
 #intro.section .teal {
   padding: 0 10px;
