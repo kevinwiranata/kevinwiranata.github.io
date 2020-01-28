@@ -10,7 +10,7 @@ import STMLogo from '../images/STM.png';
 import ArduinoLogo from '../images/Arduino.png';
 import EnergiaLogo from '../images/Energia.png';
 import PythonLogo from '../images/Python.png';
-import TensorLogo from '../images/Tensorflow.png';
+import PandasLogo from '../images/pandas.png';
 import KerasLogo from '../images/keras.png'
 import F1Logo from '../images/f1.png';
 import atpLogo from '../images/atp.png';
@@ -70,7 +70,7 @@ const About = () => {
           </div>
           <div class = "items price">
             <p class="old">Hardware: Arduino/Energia, Wireless Beaglebone, STM-Microelectronics Sensortile</p>
-            <p class="new">Software: Python (numpy, keras, Tensorflow, neural nets), SQL </p>
+            <p class="new">Software: Python (Pandas, Keras, Numpy, Neural Nets), SQL </p>
           </div>
           <div class="items cart">
             <i class="fa fa-shopping-cart"></i>
@@ -84,7 +84,7 @@ const About = () => {
             <span/><span/><span/><span/>
             <img src={KerasLogo} alt="Keras" className="resize"></img>
             <span/><span/><span/><span/>
-            <img src={TensorLogo} alt="Tensorflow" className="resize"></img>
+            <img src={PandasLogo} alt="Pandas" className="resize"></img>
           </div>
         </div>
       </div>
