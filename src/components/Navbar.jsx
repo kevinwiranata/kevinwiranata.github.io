@@ -75,6 +75,9 @@ export default class Navbar extends Component {
                 Contact Me!
               </LinkScroll>
             </li>
+            <li>
+            <a rel="noopener noreferrer" target="_blank" style={navStyle} href="https://drive.google.com/file/d/1vGGCdbACfB_HadQODjA32YaZlfAvajEy/view"> <span>Résumé</span></a>
+            </li>
           </ul>
         </div>
       </nav>

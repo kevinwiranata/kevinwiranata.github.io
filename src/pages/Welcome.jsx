@@ -12,7 +12,7 @@ const Welcome = () => {
       <div id='stars2'></div>
       <div id='stars3'></div>
       <div className='title1'>
-        <div>Hello! I'm <span className='name'>Kevin Wiranata</span></div>
+        <div>Hi I'm <span className='name'>Kevin Wiranata</span></div>
         <div>I'm a Computer Engineer at UCLA
          </div>
         <br/>
