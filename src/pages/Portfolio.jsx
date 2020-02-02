@@ -5,7 +5,7 @@ import alterra from '../images/alterra.png';
 import speakly from '../images/speakly.ico';
 import lahacks from '../images/lahacks.jpeg';
 import acm from '../images/acmai.png';
-import artage from '../images/artage.png';
+import artage from '../images/artage.jpg';
 import cloud from '../images/cloud.png'
 
 export class Portfolio extends React.Component {
