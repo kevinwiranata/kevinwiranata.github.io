@@ -4,7 +4,7 @@ import 'react-animated-slider/build/horizontal.css';
 import alterra from '../images/alterra.png';
 import speakly from '../images/speakly.ico';
 import lahacks from '../images/lahacks.jpeg';
-import acm from '../images/acmai.png';
+import acm from '../images/acmai.jpg';
 import artage from '../images/artage.jpg';
 import cloud from '../images/cloud.png'
 
