@@ -76,7 +76,7 @@ export default class Navbar extends Component {
               </LinkScroll>
             </li>
             <li>
-            <a rel="noopener noreferrer" target="_blank" style={navStyle} href="https://drive.google.com/file/d/1KcgASX_trdMP9_LJWeji7wDGy30AxqSA/view?usp=sharing"> <span>Résumé</span></a>
+            <a rel="noopener noreferrer" target="_blank" style={navStyle} href="https://d1b10bmlvqabco.cloudfront.net/user_resumes/jqzv730o4vt3pq/jqzv730o4vt3pq_1582071546.pdf"> <span>Résumé</span></a>
             </li>
           </ul>
         </div>
