@@ -20,7 +20,8 @@ npm start
 ```
 
 ## Todo
-- [ ] Update CSS media querys for smartphone
+- [] Update 2020 Portfolio (Todo Post Summer 2020 Intern)
+- [x] Update CSS media querys for smartphone
 - [x] Update CSS media querys for desktop
 - [x] Finish portfolio descriptions
 - [x] Finish about descriptions
