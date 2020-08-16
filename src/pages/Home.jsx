@@ -19,7 +19,7 @@ export class Home extends Component {
         <div className="container-right">
           <h1>I love to code..<span className="blinking">.</span> <br/>
           <Typical
-            steps={['C/C++', 3000, 'HTML/CSS', 3000, 'Javascript', 3000, 'Python', 3000, 'Typescript', 3000]}
+            steps={['C/C++', 3000, 'Go', 3000, 'Javascript', 3000, 'Python', 3000, 'Typescript', 'HTML/CSS', 3000]}
             loop={Infinity}
             wrapper="b"/>
           </h1>
