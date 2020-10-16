@@ -3,7 +3,7 @@ import "../css/Pages.css";
 import "react-animated-slider/build/horizontal.css";
 import alterra from "../images/alterra.png";
 import speakly from "../images/speakly.ico";
-import artage from "../images/artage.jpg";
+import blibli from "../images/blibli.png"
 import cloud from "../images/cloud.png";
 
 export class Portfolio extends React.Component {
@@ -29,6 +29,47 @@ export class Portfolio extends React.Component {
         </div>
 
         <div class="cards">
+
+        <div class="card-container">
+            <div class="card">
+              <a
+                href="https://www.blibli.com//"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="card--display">
+                  <h2 className="card-title">BliBli.com</h2>
+                  <img src={blibli} alt="alterra" className="image-hover1" />
+                  <h4>Software Engineering Intern | June - Aug 2020</h4>
+                  <ul class="card-text">
+                    <li>
+                    Implemented a backend transport order system to track 
+                    the movement of merchant’s goods in warehouses by creating 
+                    an order management system using Java Spring Boot RESTful 
+                    API with PostgreSQL databases complete with JUnit tests.
+                    </li>
+                    <br />
+                    <li>
+                    Launched live production deployment by configuring Jenkins, 
+                    Jmeter and PostgreSQL.
+                    </li>
+                    <br />
+                    <li>
+                    Utilized the commander OOP design pattern with Apache 
+                    Kafka publisher/listener state management.
+                    </li>
+                  </ul>
+                  <br />
+                  <p class="card-text">
+                    <strong>Tech Stack:</strong> Java, Spring Boot, PostgreSQL
+                    mongoDB, Kafka, JUnit {" "}
+                  </p>
+                </div>
+              </a>
+              <div class="card--border"></div>
+            </div>
+          </div>
+          
           <div class="card-container">
             <div class="card">
               <a
@@ -69,6 +110,7 @@ export class Portfolio extends React.Component {
               <div class="card--border"></div>
             </div>
           </div>
+          
           <div class="card-container">
             <div class="card">
               <a
@@ -104,31 +146,7 @@ export class Portfolio extends React.Component {
               <div class="card--border"></div>
             </div>
           </div>
-          <div class="card-container">
-            <div class="card">
-              <a
-                href="https://github.com/kevinwiranata/Project-Artage"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div class="card--display">
-                  <h2>Project Artage</h2>
-                  <h4>February 2019</h4>
-                  <h5 class="card-text">
-                    A Convolutional Neural Network that looks for particular
-                    features in paintings and predicts the year artwork was made
-                  </h5>
-                  <img src={artage} alt="artage" className="image-hover3" />
-                  <br />
-                  <p class="card-text">
-                    <strong>Tech Stack:</strong> Python (numpy, pandas, keras,
-                    scipy), HTML, PHP{" "}
-                  </p>
-                </div>
-              </a>
-              <div class="card--border"></div>
-            </div>
-          </div>
+      
         </div>
       </div>
     );
