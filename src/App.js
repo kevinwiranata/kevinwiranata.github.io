@@ -29,6 +29,10 @@ function App() {
         <Portfolio/>
         <Contact/>
       </div>)}/>
+      <Route exact path="/resume" component={() => { 
+        window.location.href = 'https://d1b10bmlvqabco.cloudfront.net/user_resumes/jqzv730o4vt3pq/jqzv730o4vt3pq_1599905126.pdf'; 
+        return null;
+      }}/>
       <Route component = {Error}/>
     </Switch>
     </>
