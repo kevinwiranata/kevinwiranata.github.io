@@ -110,6 +110,8 @@ a.facebook {
   border: none;
   cursor: pointer;
   outline: none;
+  margin-top: 3px;
+  padding-top: 7px;
 }
 .nav-icon {
   font-size: 1.5rem;
@@ -137,7 +139,7 @@ a.facebook {
 }
 
 .show-nav {
-  height: 210px;
+  height: 260px;
 }
 @media screen and (min-width: 768px) {
   .nav-btn {
