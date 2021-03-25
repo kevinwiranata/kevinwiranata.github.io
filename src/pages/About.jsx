@@ -6,9 +6,8 @@ import nestLogo from "../images/nest.png";
 import htmlLogo from "../images/html.png";
 import cssLogo from "../images/css.png";
 import nodeLogo from "../images/node.png";
-import STMLogo from "../images/STM.png";
-import ArduinoLogo from "../images/Arduino.png";
-import EnergiaLogo from "../images/Energia.png";
+import HyperledgerLogo from '../images/Hyperledger-Fabric.png'
+import EthereumLogo from "../images/ethereum.png";
 import PythonLogo from "../images/Python.png";
 import PandasLogo from "../images/pandas.png";
 import KerasLogo from "../images/keras.png";
@@ -49,11 +48,11 @@ const About = () => {
               Node.js
             </p>
             <p class="new">
-              <span className="area">Backend: </span>Nestjs, ExpressJS,
+              <span className="area">Backend: </span>Nestjs, ExpressJS, Java (Spring)
               Typescript, SQL, MongoDB
             </p>
             <p class="old">
-              <span className="area">Other: </span>C/C++, Git, Vim, Shell/Bash,
+              <span className="area">Other: </span>Go, C/C++, Git, Vim, Shell/Bash,
               TDD, x86-64, Verilog, Ansys,{" "}
             </p>
           </div>
@@ -84,27 +83,23 @@ const About = () => {
       <div class="container middle">
         <div class="overlay">
           <div class="items head">
-            <p>Data & Robotics Enthusiast</p>
+            <p>Blockchain & Data Enthusiast</p>
             <hr />
           </div>
           <div class="items price">
             <p class="old">
-              Hardware: Arduino/Energia, Wireless Beaglebone,
-              STM-Microelectronics Sensortile
+              Blockchain: Hyperledger Fabric (Go), Ethereum (Solidity)
             </p>
             <p class="new">
-              Software: Python (Pandas, Keras, Numpy, Neural Nets), SQL{" "}
+              Data Sience: Python (Pandas, Keras, Numpy, Sklearn, CV2), SQL{" "}
             </p>
           </div>
           <div class="items cart">
             <i class="fa fa-shopping-cart"></i>
-            <img src={STMLogo} alt="STM" className="resize"></img>
+            <img src={HyperledgerLogo} alt="Arduino" className="resize"></img>
             <span />
             <span />
-            <img src={ArduinoLogo} alt="Arduino" className="resize"></img>
-            <span />
-            <span />
-            <img src={EnergiaLogo} alt="Energia" className="resize"></img>
+            <img src={EthereumLogo} alt="Energia" className="resize"></img>
             <br />
             <br />
             <img src={PythonLogo} alt="Python" className="resize"></img>
