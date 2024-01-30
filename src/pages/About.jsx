@@ -26,7 +26,7 @@ const About = () => {
         </blockquote>
         <div className="description">
           <span>
-            Second year Computer Engineering Student at UCLA | Mission-driven
+            Graduate CS at Cornell Tech | Mission-driven
             Full Stack Developer & Data Junkie
           </span>
           <span className="code1">

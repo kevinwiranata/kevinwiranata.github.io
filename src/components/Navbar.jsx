@@ -13,7 +13,7 @@ const navStyle = {
 
 export default class Navbar extends Component {
   state = {
-    isOpen:false    
+    isOpen:false
   }
 
   // toggles navbar state on and off on click
@@ -32,7 +32,7 @@ export default class Navbar extends Component {
           </div>
           <ul className={this.state.isOpen?"nav-links show-nav":"nav-links "}>
             <li>
-              <LinkScroll 
+              <LinkScroll
               to="home"
               spy={true}
               smooth={true}
@@ -43,7 +43,7 @@ export default class Navbar extends Component {
               </LinkScroll>
             </li>
             <li>
-              <LinkScroll 
+              <LinkScroll
               to="about"
               spy={true}
               smooth={true}
@@ -54,7 +54,7 @@ export default class Navbar extends Component {
               </LinkScroll>
             </li>
             <li>
-            <LinkScroll 
+            <LinkScroll
               to="portfolio"
               spy={true}
               smooth={true}
@@ -65,7 +65,7 @@ export default class Navbar extends Component {
               </LinkScroll>
             </li>
             <li>
-            <LinkScroll 
+            <LinkScroll
               to="contact"
               spy={true}
               smooth={true}
@@ -76,7 +76,7 @@ export default class Navbar extends Component {
               </LinkScroll>
             </li>
             <li>
-            <a rel="noopener noreferrer" target="_blank" style={navStyle} href="https://d1b10bmlvqabco.cloudfront.net/user_resumes/jqzv730o4vt3pq/jqzv730o4vt3pq_1632458785.pdf"> <span>Résumé</span></a>
+            <a rel="noopener noreferrer" target="_blank" style={navStyle} href="https://cdn-uploads.piazza.com/user_resumes/jqzv730o4vt3pq/764a57cd-56cf-425d-8b70-cf206443084a.pdf"> <span>Résumé</span></a>
             </li>
           </ul>
         </div>
