@@ -43,19 +43,19 @@ export class Portfolio extends React.Component {
                   <h4>Software Engineering Intern | June - Aug 2020</h4>
                   <ul class="card-text">
                     <li>
-                    Implemented a backend transport order system to track 
-                    the movement of merchant’s goods in warehouses by creating 
-                    an order management system using Java Spring Boot RESTful 
+                    Implemented a backend transport order system to track
+                    the movement of merchant’s goods in warehouses by creating
+                    an order management system using Java Spring Boot RESTful
                     API with PostgreSQL databases complete with JUnit tests.
                     </li>
                     <br />
                     <li>
-                    Launched live production deployment by configuring Jenkins, 
+                    Launched live production deployment by configuring Jenkins,
                     Jmeter and PostgreSQL.
                     </li>
                     <br />
                     <li>
-                    Utilized the commander OOP design pattern with Apache 
+                    Utilized the commander OOP design pattern with Apache
                     Kafka publisher/listener state management.
                     </li>
                   </ul>
@@ -69,7 +69,7 @@ export class Portfolio extends React.Component {
               <div class="card--border"></div>
             </div>
           </div>
-          
+
           <div class="card-container">
             <div class="card">
               <a
@@ -110,7 +110,7 @@ export class Portfolio extends React.Component {
               <div class="card--border"></div>
             </div>
           </div>
-          
+
           <div class="card-container">
             <div class="card">
               <a
@@ -146,7 +146,8 @@ export class Portfolio extends React.Component {
               <div class="card--border"></div>
             </div>
           </div>
-      
+          
+
         </div>
       </div>
     );
