@@ -21,7 +21,7 @@ export class Contact extends React.Component {
 				<body class="is-preload">
 					<div id="wrapper">
 						<div id="main">
-							<article id="contact">
+							<article>
 								<h2 class="major">Contact</h2>
 								<form name="contacts" method="post" data-netlify="true">
 									<input type="hidden" name="form-name" value="contact" />
