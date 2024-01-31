@@ -106,7 +106,7 @@
 }
 
 .portfolio-section {
-	height: 160vh;
+	height: 170vh;
 	background: url(../images/1XDJ9645.jpg) no-repeat top center/cover;
 	position: relative;
 	background-attachment: fixed;
@@ -215,6 +215,7 @@ h1 {
 	padding-top: 1px;
 	padding-bottom: 15px;
 	padding-left: 35px;
+	padding-right: 140px;
 	text-align: justify;
 }
 
@@ -366,6 +367,7 @@ blockquote * {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 35px;
+	padding-right: 140px;
 	text-align: justify;
 }
 
@@ -374,10 +376,10 @@ blockquote * {
 	color: #333333;
 	text-align: left !important;
 	font-weight: bold;
+	padding-right: 5%;
 }
 
 .code1 {
-	padding-left: 100px;
 	font-size: 16px !important;
 	font-family: "Roboto Slab", serif;
 }
@@ -387,13 +389,8 @@ code {
 }
 
 .code2 {
-	padding-left: 29%;
 	font-size: 16px !important;
 	font-family: "Roboto Slab", serif;
-}
-
-code {
-	padding: 0 2px;
 }
 
 .cards {
@@ -894,19 +891,22 @@ article .social {
 @media screen and (min-width: 878px) {
 	#about .container.middle {
 		width: 29%;
-		height: 650px;
+		height: 75%;
+		top: 15%;
 	}
 
 	#about .container.right {
 		width: 29%;
 		right: 5%;
-		height: 650px;
+		height: 75%;
+		top: 15%;
 	}
 
 	#about .container.left {
 		width: 29%;
-		height: 650px;
+		height: 75%;
 		left: 5%;
+		top: 15%;
 	}
 
 	#intro.section {
