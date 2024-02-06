@@ -42,7 +42,7 @@ function App() {
 					path="/resume"
 					component={() => {
 						window.location.href =
-							"https://cdn-uploads.piazza.com/user_resumes/jqzv730o4vt3pq/764a57cd-56cf-425d-8b70-cf206443084a.pdf";
+							"https://cdn-uploads.piazza.com/user_resumes/jqzv730o4vt3pq/9ee8b586-8dc9-4de0-98b8-a71678e6efc4.pdf";
 						return null;
 					}}
 				/>
