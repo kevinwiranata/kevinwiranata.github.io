@@ -86,7 +86,7 @@ export default class Navbar extends Component {
 								rel="noopener noreferrer"
 								target="_blank"
 								style={navStyle}
-								href="https://cdn-uploads.piazza.com/user_resumes/jqzv730o4vt3pq/70b8419e-4239-4656-b6e8-5758606cd1c0.pdf">
+								href="https://cdn-uploads.piazza.com/user_resumes/jqzv730o4vt3pq/98be0b0e-9afe-46c7-a58c-4f6469c6b354.pdf">
 								{" "}
 								<span>Résumé</span>
 							</a>
